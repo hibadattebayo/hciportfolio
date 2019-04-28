@@ -1,0 +1,210 @@
+/*///////////////////////////////TOPICS GRID//////////////////////////////////*/
+#topics .grid-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas:"nav nav"
+						"header image"
+						"image_ass1 assignments1"
+						" assignments2 image_ass2 "
+						"image_ass3 assignments3"
+}
+
+#topics .assignments1{
+	grid-area: assignments1;
+	margin: 4%;
+	margin-left: 0;
+}
+
+#topics .assignments2{
+	grid-area: assignments2;
+}
+
+#topics .assignments3{
+	grid-area: assignments3;
+	margin: 4%;
+	margin-left: 0;
+}
+
+#topics .image_assignment1{
+	grid-area: image_ass1;
+	margin: 4%;
+	margin-right: 0;
+}
+
+#topics .image_assignment2{
+	grid-area: image_ass2;
+}
+
+#topics .image_assignment3{
+	grid-area: image_ass3;
+	margin: 4%;
+	margin-right: 0;
+}
+
+/*//////////////////////////////WORKSHOPS GRID///////////////////////////////////*/
+#workshops .grid-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas:"nav nav"
+						"header image"
+						"image_ass1 assignments1"
+						"assignments2 image_ass2"
+						"image_ass3 assignments3"
+}
+
+#workshops .assignments1{
+	grid-area: assignments1;
+	margin: 4%;
+	margin-left: 0;
+}
+
+#workshops .assignments2{
+	grid-area: assignments2;
+}
+
+#workshops .assignments3{
+	grid-area: assignments3;
+	margin: 4%;
+	margin-left: 0;
+}
+
+#workshops .image_assignment4{
+	grid-area: image_ass1;
+	margin: 4%;
+	margin-right: 0;
+}
+
+#workshops .image_assignment5{
+	grid-area: image_ass2;
+}
+
+#workshops .image_assignment6{
+	grid-area: image_ass3;
+	margin: 4%;
+	margin-right: 0;
+}
+
+/*/////////////////////////////EXCURSION GRID////////////////////////////////////*/
+.grid-container3{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas:"nav nav"
+						"header image"
+						"image_ass1 assignments1"
+						"assignments2 image_ass2"
+						"image_ass3 assignments3"
+}
+
+#workshops .image_assignment7{
+	grid-area: image_ass3;
+	margin: 4%;
+	margin-right: 0;
+}
+
+/*//////////////////////////////LABWEEKS GRID///////////////////////////////////*/
+.grid-container4{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas:"nav nav"
+						"header image"
+						"image_ass1 assignments1"
+						"assignments2 image_ass2"
+						"image_ass3 assignments3"
+}
+
+#workshops .image_assignment8{
+	grid-area: image_ass3;
+	margin: 4%;
+	margin-right: 0;
+}
+
+/*//////////////////////////////ALL THE GRIDS///////////////////////////////////*/
+nav{
+  grid-area: nav;
+  font-family: raleway;
+  font-size: 18px;
+  padding: 0;
+}
+
+.assignments{
+	grid-area: header;
+	background-color: #F9D8DB;
+	color: #232323;
+	font-family: raleway;
+	font-size: 48px;
+	
+	margin: 4%;
+	margin-right: 0;
+	padding-top: 18%;
+    padding-left: 5%;
+    padding-bottom: 18%;
+}
+
+.image_assignment{
+	grid-area: image;
+    background-color: #F9D8DB;
+    opacity: 0.5;
+    padding-top: 40%;
+    padding-left: 5%;
+    padding-bottom: 50%;
+    margin: 4%;
+	margin-left: 0;
+    background: /* top, transparent red */ 
+	linear-gradient(
+	rgba(255,184,209,0.60), 
+	rgba(255,184,209,0.60)
+	),
+	/* bottom, image */
+	url(../images/placeholder.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#topics .overlay a, #topics .logo{
+	color: #F9D8DB;
+}
+
+#workshops .overlay a, #workshops .logo{
+	color: #EDC2E6;
+}
+
+#excursion .overlay a, #excursion .logo{
+	color: #DBA4EA;
+}
+
+#labweeks .overlay a, #labweeks .logo{
+	color: #A476C1;
+}
+
+#topics .assignments, #topics .image_assignment{
+	background-color: #F9D8DB;
+}
+
+ #workshops .assignments, #workshops .image_assignment{
+	 background-color: #EDC2E6;
+ }
+ 
+ #excursion .assignments{
+	 background-color: #DBA4EA;
+ }
+ 
+ #excursion .image_assignment{
+	  background: /* top, transparent red */ 
+	linear-gradient(
+	rgba(219, 164, 234, 0.62), 
+	rgba(219, 164, 234, 0.62)
+	);
+ }
+ 
+ #labweeks .assignments, #labweeks .image_assignment{
+	 background-color: #A476C1;
+	 color: #f4f4f4;
+ }
+ 
+ #labweeks h1{
+	 color: #f4f4f4;
+ }
+ 
+#topics .nav-links:hover, #workshops .nav-links:hover, #excursion .nav-links:hover, #labweeks .nav-links:hover   {
+        color: #f1f1f1;;
+    }
+  
