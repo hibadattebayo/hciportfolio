@@ -9,7 +9,7 @@
 
 body {
   font-family: lora;
-  background-color: #232020 /*#98dbc6   */;
+  background-color: #232020 /*#98dbc6*/;
 }
 
 h1{
@@ -55,13 +55,6 @@ p{
   transition: 0.5s;
 }
 
-/*.overlay-content {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  margin-top: 30px;
-}*/
-
 .overlay a {
   transition: 0.3s;
 }
@@ -70,33 +63,6 @@ p{
   color: #f1f1f1;
 }
 
-/*.overlay .closebtn{
-  font-size: 40px;
-  display: flex;
-  justify-content: flex-end;
-   width: 92%;
-   height: 5%;
-}
-
-.grid-item{
-	padding-right: 15%;
-}
-
-i{
-	color:  #FFB8D1;
-	font-size: 35px;
-	display: block;
-}
-
-.fa-bars{
-  color:  #FFB8D1;
-}
-
-.main-nav {
-  list-style-type: none;
-  display: inline;}*/
-
-
 .nav-links,
 .logo {
   text-decoration: none;
@@ -104,11 +70,6 @@ i{
   font-family: raleway;
   font-weight: 900;
 }
-
-/*.main-nav li {
-  text-align: center;
- margin: 15px auto;
-}*/
 
 .logo {
   display: inline-block;
@@ -131,15 +92,6 @@ i{
   display: inline;
 }
 
-
-@media screen and (min-width: 768px) {
-.fa-bars{
-	font-size: 40px;
-}
-}
-
-
-@media screen and (min-width: 1366px) {
 .grid-container{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -249,17 +201,9 @@ i{
 		margin-left: 6%;
 		display: fixed;
     }
-   .navbar-toggle {
-       display: none;
-    }
     .logo:hover,
     .nav-links:hover {
         color: rgba(255, 255, 255, 1);
     }
-  
-  .closebtn{
-	  visibility: hidden;
-  }
  }
  
-}
