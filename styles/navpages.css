@@ -3,10 +3,26 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-areas:"nav nav"
-						"header image"
+						"innernav innernav"
 						"image_ass1 assignments1"
 						" assignments2 image_ass2 "
 						"image_ass3 assignments3"
+						"assignments4 image_ass4"
+}
+
+#insidenav{
+	grid-area: innernav;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	list-style: none;
+	margin-right: 3%;
+	margin-top: 3%;
+}
+
+#insidenav li a{
+	color: #F9D8DB;
+	text-transform: uppercase;
 }
 
 #topics .assignments1{
@@ -25,6 +41,10 @@
 	margin-left: 0;
 }
 
+#topics .assignments4{
+	grid-area: assignments4;
+}
+
 #topics .image_assignment1{
 	grid-area: image_ass1;
 	margin: 4%;
@@ -35,12 +55,31 @@
 
 #topics .image_assignment2{
 	grid-area: image_ass2;
+	margin-top: 4%;
+    margin-bottom: 4%;
+    margin-right: 4%;
+	padding: 0;
+}
+
+.video2{
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
 }
 
 #topics .image_assignment3{
 	grid-area: image_ass3;
 	margin: 4%;
 	margin-right: 0;
+	background-image: url(../images/printermoods.png);
+	background-position: center;
+}
+
+#topics .image_assignment4{
+	grid-area: image_ass4;
+	margin: 4%;
+	margin-left: 0;
 }
 
 /*//////////////////////////////WORKSHOPS GRID///////////////////////////////////*/
@@ -70,35 +109,34 @@
 	margin-left: 0;
 }
 
-#workshops .image_assignment4{
+
+#workshops .image_assignment5{
 	grid-area: image_ass1;
-	margin: 4%;
+	margin-left: 4%;
 	margin-right: 0;
 }
 
-#workshops .image_assignment5{
+#workshops .image_assignment6{
 	grid-area: image_ass2;
 }
 
-#workshops .image_assignment6{
+#workshops .image_assignment7{
 	grid-area: image_ass3;
 	margin: 4%;
 	margin-right: 0;
 }
+
 
 /*/////////////////////////////EXCURSION GRID////////////////////////////////////*/
 .grid-container3{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-areas:"nav nav"
-						"header image"
 						"image_ass1 assignments1"
-						"assignments2 image_ass2"
-						"image_ass3 assignments3"
 }
 
-#workshops .image_assignment7{
-	grid-area: image_ass3;
+#workshops .image_assignment8{
+	grid-area: image_ass1;
 	margin: 4%;
 	margin-right: 0;
 }
@@ -110,12 +148,10 @@
 	grid-template-areas:"nav nav"
 						"header image"
 						"image_ass1 assignments1"
-						"assignments2 image_ass2"
-						"image_ass3 assignments3"
 }
 
-#workshops .image_assignment8{
-	grid-area: image_ass3;
+#workshops .image_assignment9{
+	grid-area: image_ass1;
 	margin: 4%;
 	margin-right: 0;
 }
@@ -137,10 +173,10 @@ nav{
 	
 	margin: 4%;
 	margin-right: 0;
-	padding-top: 18%;
+	padding-top: 10%;
     padding-left: 5%;
 	padding-right: 5%;
-    padding-bottom: 18%;
+    padding-bottom: 10%;
 }
 
 .image_assignment{
