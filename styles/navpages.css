@@ -10,7 +10,7 @@
 						"assignments4 image_ass4"
 }
 
-#insidenav{
+#insidenav, #insidenav1{
 	grid-area: innernav;
 	display: flex;
 	justify-content: space-between;
@@ -61,7 +61,7 @@
 	padding: 0;
 }
 
-.video2{
+.video2, .video3{
 	right: 0;
 	bottom: 0;
 	min-width: 100%;
@@ -87,10 +87,15 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-areas:"nav nav"
-						"header image"
+						"innernav innernav"
 						"image_ass1 assignments1"
 						"assignments2 image_ass2"
 						"image_ass3 assignments3"
+}
+
+#insidenav1 li a{
+	color: #EDC2E6;
+	text-transform: uppercase;
 }
 
 #workshops .assignments1{
@@ -114,6 +119,8 @@
 	grid-area: image_ass1;
 	margin-left: 4%;
 	margin-right: 0;
+	padding: 0;
+	opacity: 100;
 }
 
 #workshops .image_assignment6{
