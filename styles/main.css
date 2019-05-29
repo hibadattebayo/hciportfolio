@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Open+sans');
 @import url(https://fonts.googleapis.com/css?family=Overpass);
 
 *{
@@ -12,7 +12,7 @@ html{
 }
 
 body {
-  font-family: lora;
+  font-family: open sans;
   background-color: #232020 /*#98dbc6*/;
 }
 
@@ -25,14 +25,14 @@ h1{
 
 
 h3{
-	font-family: lora ;
+	font-family: open sans ;
 	font-size: 12px;
 	color: #232020;
 }
 
 p{
-	font-family: lora ;
-	font-size: 18px;
+	font-family: open sans ;
+	font-size: 15px;
 	color: #232020;
 }
 

@@ -10,6 +10,26 @@
 						"assignments4 image_ass4"
 }
 
+.image_assignment{
+	grid-area: image;
+    background-color: #F9D8DB;
+    opacity: 0.5;
+    padding-top: 40%;
+    padding-left: 5%;
+    padding-bottom: 50%;
+    margin: 4%;
+	margin-left: 0;
+    background: /* top, transparent red */ 
+	linear-gradient(
+	rgba(255,184,209,0.60), 
+	rgba(255,184,209,0.60)
+	),
+	/* bottom, image */
+	url(../images/placeholder.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
 #insidenav, #insidenav1{
 	grid-area: innernav;
 	display: flex;
@@ -64,6 +84,7 @@
 .video2, .video3{
 	right: 0;
 	bottom: 0;
+	padding: 0;
 	min-width: 100%;
 	min-height: 100%;
 }
@@ -80,6 +101,7 @@
 	grid-area: image_ass4;
 	margin: 4%;
 	margin-left: 0;
+	padding: 0;
 }
 
 /*//////////////////////////////WORKSHOPS GRID///////////////////////////////////*/
@@ -186,24 +208,6 @@ nav{
     padding-bottom: 10%;
 }
 
-.image_assignment{
-	grid-area: image;
-    background-color: #F9D8DB;
-    opacity: 0.5;
-    padding-top: 40%;
-    padding-left: 5%;
-    padding-bottom: 50%;
-    margin: 4%;
-	margin-left: 0;
-    background: /* top, transparent red */ 
-	linear-gradient(
-	rgba(255,184,209,0.60), 
-	rgba(255,184,209,0.60)
-	),
-	/* bottom, image */
-	url(../images/placeholder.jpg) no-repeat center;
-    background-size: cover;
-}
 
 #topics .overlay a, #topics .logo{
 	color: #F9D8DB;
