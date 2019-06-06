@@ -147,12 +147,14 @@
 
 #workshops .image_assignment6{
 	grid-area: image_ass2;
+	padding-top: 20%;
 }
 
 #workshops .image_assignment7{
 	grid-area: image_ass3;
 	margin: 4%;
 	margin-right: 0;
+	padding-top: 1%;
 }
 
 
@@ -164,7 +166,13 @@
 						"image_ass1 assignments1"
 }
 
-#workshops .image_assignment8{
+#excursion .assignments1{
+	grid-area: assignments1;
+	margin-right: 4%;
+	margin-left: 0;
+}
+
+#excursion .image_assignment8{
 	grid-area: image_ass1;
 	margin: 4%;
 	margin-right: 0;
