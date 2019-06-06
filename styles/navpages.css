@@ -173,18 +173,71 @@
 /*//////////////////////////////LABWEEKS GRID///////////////////////////////////*/
 .grid-container4{
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr;
 	grid-template-areas:"nav nav"
-						"header image"
-						"image_ass1 assignments1"
+						"image image"
+						"assignments1 assignments1"
+						"assignments2 assignments2"
+						"assignments3 assignments3"
+						"assignments4 assignments4"
+						"assignments5 assignments5"
+						"assignments6 assignments6"
+						"assignments7 assignments7"
+						"assignments8 assignments8"
+						"assignments9 assignments9"
 }
 
-#workshops .image_assignment9{
-	grid-area: image_ass1;
+.image{
+	grid-area: image;
+	height: 550px;
+	margin-top: 2%;
+	background-color: #111111;
+	color: white;
+	margin-right: 4%;
+	margin-left: 4%;
+}
+
+#labweeks .assignments{
 	margin: 4%;
-	margin-right: 0;
+	margin-bottom: 0;
 }
 
+/*assignments*/
+#labweeks .assignments1{
+	grid-area: assignments1;
+}
+
+#labweeks .assignments2{
+	grid-area: assignments2;
+}
+
+#labweeks .assignments3{
+	grid-area: assignments3;
+}
+
+#labweeks .assignments4{
+	grid-area: assignments4;
+}
+
+#labweeks .assignments5{
+	grid-area: assignments5;
+}
+
+#labweeks .assignments6{
+	grid-area: assignments6;
+}
+
+#labweeks .assignments7{
+	grid-area: assignments7;
+}
+
+#labweeks .assignments8{
+	grid-area: assignments8;
+}
+
+#labweeks .assignments9{
+	grid-area: assignments9;
+}
 /*//////////////////////////////ALL THE GRIDS///////////////////////////////////*/
 nav{
   grid-area: nav;
@@ -250,7 +303,7 @@ nav{
 	 color: #f4f4f4;
  }
  
- #labweeks h1{
+ #labweeks h1, #labweeks p{
 	 color: #f4f4f4;
  }
  
