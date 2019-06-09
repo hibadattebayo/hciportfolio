@@ -174,6 +174,10 @@
 
 #excursion .image_assignment8{
 	grid-area: image_ass1;
+	
+	background-image: url(../images/excursion.jpg);
+	background-position: center;
+	
 	margin: 4%;
 	margin-right: 0;
 }
@@ -296,14 +300,6 @@ nav{
  
  #excursion .assignments{
 	 background-color: #DBA4EA;
- }
- 
- #excursion .image_assignment{
-	  background: /* top, transparent red */ 
-	linear-gradient(
-	rgba(219, 164, 234, 0.62), 
-	rgba(219, 164, 234, 0.62)
-	);
  }
  
  #labweeks .assignments, #labweeks .image_assignment{
