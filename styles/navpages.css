@@ -152,6 +152,11 @@
 
 #workshops .image_assignment7{
 	grid-area: image_ass3;
+	
+	background-image: url(../images/cv.jpg);
+	background-position: center;
+	background-size: 100%;
+	
 	margin: 4%;
 	margin-right: 0;
 	padding-top: 1%;
@@ -211,6 +216,7 @@
 
 #labweeks .assignments{
 	margin: 4%;
+	margin-top: 3%;
 	margin-bottom: 0;
 }
 
@@ -273,6 +279,9 @@ nav{
     padding-bottom: 10%;
 }
 
+#labweeks .assignments{
+	padding: 5%;
+}
 
 #topics .overlay a, #topics .logo{
 	color: #F9D8DB;
@@ -307,7 +316,7 @@ nav{
 	 color: #f4f4f4;
  }
  
- #labweeks h1, #labweeks p{
+ #labweeks h1, #labweeks p, #labweeks h3{
 	 color: #f4f4f4;
  }
  
