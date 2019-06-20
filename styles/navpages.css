@@ -195,6 +195,7 @@
 	grid-template-columns: 1fr;
 	grid-template-areas:"nav nav"
 						"image image"
+						"product product"
 						"assignments1 assignments1"
 						"assignments2 assignments2"
 						"assignments3 assignments3"
@@ -220,6 +221,10 @@
 	margin: 4%;
 	margin-top: 3%;
 	margin-bottom: 0;
+}
+
+#labweeks .product{
+	grid-area: product;
 }
 
 /*assignments*/
