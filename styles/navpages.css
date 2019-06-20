@@ -204,14 +204,14 @@
 						"assignments9 assignments9"
 }
 
-.image{
+.video4{
 	grid-area: image;
-	height: 550px;
 	margin-top: 2%;
-	background-color: #111111;
-	color: white;
 	margin-right: 4%;
 	margin-left: 4%;
+	
+	width: 92%;
+	height: 430px;
 }
 
 #labweeks .assignments{
