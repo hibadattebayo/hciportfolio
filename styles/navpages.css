@@ -21,13 +21,6 @@
     padding-bottom: 50%;
     margin: 4%;
 	margin-left: 0;
-    background: /* top, transparent red */ 
-	linear-gradient(
-	rgba(255,184,209,0.60), 
-	rgba(255,184,209,0.60)
-	),
-	/* bottom, image */
-	url(../images/placeholder.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -149,7 +142,10 @@
 
 #workshops .image_assignment6{
 	grid-area: image_ass2;
-	padding-top: 20%;
+	margin-left: 0;
+    margin-right: 4%;
+    padding: 0;
+	opacity: 100;
 }
 
 #workshops .image_assignment7{
@@ -304,6 +300,11 @@ nav{
 
 #labweeks .overlay a, #labweeks .logo{
 	color: #A476C1;
+}
+
+#labweeks .logo{
+	margin-top: 2%;
+    margin-left: 6%;
 }
 
 #topics .assignments, #topics .image_assignment{
