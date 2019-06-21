@@ -46,8 +46,58 @@
 			<h1>Arduino (view the video please!)</h1>
 			<p>During the first two weeks of HCI technologies we learned to work with Arduino in the workshops. It was my first real experience with hardware and a different approach to coding. After all, all I know is HTML, CSS and JS.
 			It was a really cool and enlighting experience for me and I had genuine fun with it, I felt like some kind of hacker :D. What i have learned from Arduino is that it's easier than you think to use code to control
-			things like a LED, speaker, Servo motor etc. I really wonder how we are going to use the knowledge we have attained for the HCI weeks and I am looking forward to using it.<br><br></p>
-			<h3>Please view the video for all of the arduino footage + codes!</h3>
+			things like a LED, speaker, Servo motor etc. I really wonder how we are going to use the knowledge we have attained for the HCI weeks and I am looking forward to using it.
+			If you want to learn more about the seperate arduino assignments keep reading please!<br><br>
+			</p>
+			<h3>Exercise 3C (I accidentally called it 3B in the video)</h3>
+			<p>For this assignment we had to make the green light blink twice as fast as the yellow one. This meant I had to make sure that everytime the yellow light blinked once the green one would have already blinked twice.
+			It took me some time to understand this, but I got the hang of it after I finally understood how it had to be done. In the void loop (pauze video for the code) I made sure the leds went on and off, and I simply gave the yellow LED's a
+			longer delay.<br><br></p>
+			
+			<h3>Exercise 4C</h3>
+			<p>For this exercise we had to make sure that one led slowly faded in as the other would fade out at the same time. This required a for loop. In the for loop we declared a new int called "brightness". 
+			For as long as the brightness is smaller than 256 it had to go up by one for the green led. The opposite had to happen for the yellow one.<br><br></p>
+			
+			<h3>Exercise 6C</h3>
+			<p>This exercise involved a potmeter. A potmeter (=potentiometer) is a rotatable button that works similar to machines that regulate volume. If you rotate it, you change the value of something to a higher or lower number.
+			For 6C we had to use the potmeter to make one led fade in as the other one faded out (if you rotated the button). I was so happy when it worked (view video).<br><br></p>
+			
+			<h3>Exercise 7</h3>
+			<p>For exercise numero 7 we had to use light to cotrol the LED's. We did this with light sensors (aka ldr's). We had to change the code from exercise 6 so that the LED would dim whenever there wasn't a lot of light
+			coming through the LDR (when you cover it with your hand or with anything in general). And the light had to become brighter whenever there was light coming in. We had to use the map() funtion
+			to change the values to the original 0 and 255. I also used the constrain() function, as was adviced in the manual because my LED's kept flickering.<br><br></p>
+			
+			<h3>Exercise 8 (view the video for full explanation on the voltage divider formula)</h3>
+			<p>In this excersise we built a kind of light switch that uses the LDR's mentioned in the previous exercise. We used a formula for this that I have explained in the video, but I will explain it shortly here too.<br><br>
+			DONT FORGET TO FILL THIS HIBA
+			<br><br>
+			</p>
+			
+			<h3>Exercise 9B</h3>
+			<p>Exercise 9 was an introduction to processing for us. We had to use the sensor value in an "interesting way". So i figured I would make it so that if you covered the LDR's the square in the processing
+			screen would shrink and rotate a bit. I did this by changing the circle in the original code to a square using rect(). I used translate() and rotate() to make the rectangle move when the LDR was exposed to light
+			or when it was covered.<br><br></p>
+			
+			<h3>Exercise 10F</h3>
+			<p>BUTTONS! I love pressing buttons, thus I also loved it when I saw there was an exercise involving buttons. For this one we used two buttons as the input sensors. We had to make it so that if two buttons were pressed nothing would happen
+			but if one of the two was pressed the LED would light up. For this to happen we had to declare button states in the void loop.<br><br></p>
+			
+			<h3>Exercise 11B</h3>
+			<p>For this exercise we could finally use the servo motor. I had been looking forward to this moment since I saw it in the arduino kit we bought. The assignment was literally: " Try to
+			make the servo move in a funny, rhythmical way. (or teach it how to dance)" (Teachers of CMD, 2019). I decided I would devote my life to make this servo motor the best dancer of all. I know I am being dramatic but
+			hey, better have fun with writing this portfolio than not to right! Anyways, I learned my servo motor to dance by using for loops that change the position of the motor, and delays that regulated the intervals between the positions 
+			(view the video for the outcome!).<br><br></p>
+			
+			<h3>Exercise 12B</h3>
+			<p>This exercise was even more exciting. Why? Because I could combine buttons AND the servo motor. For this one we could use code that was given to us, and fill the void loop in. It was suprisingly pretty
+			easy to do. All I had to do was to make two while loops that stated that "while the button state is high and the position is les than 180, make the position higher". I did something similar to 
+			this with the second button. One of the buttons made the motor turn left
+			and the other made it turn right.<br><br></p>
+			
+			<h3>Exercise 13B</h3>
+			<p>For this exercise we used sound. We did this by using the piezo speaker. All we had to do was change the tones and BOOM, awesome beat. After I finished this exercise I also found other beats online
+			for the arduino. It was so cool! Harry potter, pirates of the carribean etc. <br><br></p>
+			
 		  </div>
 		  <div class="image_assignment5 image_assignment">
 		  <iframe class="video3" width="420" height="315"
